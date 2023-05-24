@@ -1,0 +1,81 @@
+//import font
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+
+.header{
+  padding: 0 4.8rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7f5ff;
+}
+
+.header .logo{
+  height: 3rem;
+  
+}
+
+.navbar-list{
+  display: flex;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #212529;
+  transition: all 0.3s;
+}
+
+.navbar-link:hover, 
+.navbar-link:active{
+   color: #364fc7;
+}
+
+
+/* ==================================
+
+Hero and Service Section Start
+
+===================================== */
+
+
+.section-hero,
+.section-services{
+  padding: 9.6rem 0;
+  background-color: #a5d8ff;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-services{
+  background: #f3f0ff;
+}
+
+.section-hero p,
+.section-services p{
+  font-size: 3.2rem;
+}
+
+
